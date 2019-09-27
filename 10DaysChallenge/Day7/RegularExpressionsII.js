@@ -14,3 +14,15 @@ function regexVar() {
      */
     return re;
 }
+
+function main() {
+    const re = regexVar();
+    const s = "Mr. Zer";
+    const w = "Heil. Zer"
+    
+    console.log(!!s.match(re));
+    console.log(!!w.match(re));
+    
+}
+
+main()
